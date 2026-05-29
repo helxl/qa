@@ -1,0 +1,27 @@
+body {
+  font-family: 'Tajawal', Arial, sans-serif;
+  background: #f7f9fc;
+  direction: rtl;
+  margin: 0;
+}
+:root {
+  --main-blue: #19376d;
+  --gold: #eeba5a;
+}
+
+header {
+  background: var(--main-blue);
+  color: white;
+  padding: 1.5rem 0;
+  text-align: center;
+  border-bottom: 3px solid var(--gold);
+}
+
+.main-box {
+  background: white;
+  border-radius: 12px;
+  max-width: 470px;
+  margin: 30px auto;
+  padding: 22px 22px 20px 22px;
+  box-shadow: 0 2px 16px #0001;
+}
