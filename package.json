@@ -1,0 +1,24 @@
+{
+  "name": "yemeni-legal-platform",
+  "version": "0.1.0",
+  "description": "Intelligent Yemeni Legal Analysis Platform",
+  "main": "index.js",
+  "scripts": {
+    "dev": "echo 'Development environment setup needed'",
+    "build": "echo 'Build script needed'",
+    "start": "echo 'Start script needed'",
+    "test": "echo 'Test script needed'"
+  },
+  "keywords": [
+    "yemen",
+    "legal",
+    "law",
+    "ai",
+    "analysis",
+    "platform"
+  ],
+  "author": "helxl",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}
