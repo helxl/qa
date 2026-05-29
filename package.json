@@ -1,13 +1,13 @@
 {
   "name": "yemeni-legal-platform",
   "version": "0.1.0",
-  "description": "Intelligent Yemeni Legal Analysis Platform",
-  "main": "index.js",
+  "description": "Intelligent Yemeni Legal Analysis Platform - منصة المحلل القضائي اليمني الذكية",
+  "main": "server.js",
   "scripts": {
-    "dev": "echo 'Development environment setup needed'",
-    "build": "echo 'Build script needed'",
-    "start": "echo 'Start script needed'",
-    "test": "echo 'Test script needed'"
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "build": "echo 'Build completed'",
+    "test": "echo 'Tests will be added'"
   },
   "keywords": [
     "yemen",
@@ -15,10 +15,25 @@
     "law",
     "ai",
     "analysis",
-    "platform"
+    "platform",
+    "قضاء",
+    "قانون",
+    "يمن"
   ],
   "author": "helxl",
   "license": "MIT",
-  "dependencies": {},
-  "devDependencies": {}
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "pg": "^8.11.2",
+    "axios": "^1.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": "18.x",
+    "npm": ">=9.x"
+  }
 }
